@@ -19,7 +19,7 @@ Request:
 Parameter: file (image file)
 
 Response:
-{
+`{
   "is_success": true,
   "data": {
     "results": [
@@ -34,7 +34,7 @@ Response:
     ]
   },
   "error": null
-}
+}`
 
 # Limitations
 The OCR process requires clear, high-resolution images
@@ -44,8 +44,10 @@ Processing may be slower without GPU acceleration
 # Dependencies
 Major dependencies include:
 
-FastAPI - Web framework
-EasyOCR - Optical Character Recognition
-OpenCV - Image processing
-PyTorch - Machine learning (used by EasyOCR)
-Pydantic - Data validation
+- FastAPI - Web framework
+- EasyOCR - Optical Character Recognition
+- OpenCV - Image processing
+- PyTorch - Machine learning (used by EasyOCR)
+- Pydantic - Data validation
+
+  Deployment Link: WIP
