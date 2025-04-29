@@ -5,9 +5,18 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "easyocr>=1.7.2",
     "fastapi>=0.115.12",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
     "numpy>=2.2.5",
+    "opencv-python>=4.11.0.86",
     "pandas>=2.2.3",
+    "pillow>=11.2.1",
     "pydantic>=2.11.3",
+    "pytesseract>=0.3.13",
+    "python-multipart>=0.0.20",
+    "torch>=2.7.0",
+    "transformers>=4.51.3",
     "uvicorn>=0.34.2",
 ]
