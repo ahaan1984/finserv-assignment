@@ -50,6 +50,8 @@ async def get_lab_tests(file: UploadFile = File(...)):
             print(f"Processing failed or no data found: {error_message}")
             response = Output(is_success=False, data=None, error=error_message)
 
+        print(response)
+
         return response
 
     except HTTPException:

@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Base64Bytes, Field
-from typing import List, Dict, Any, Optional
+from typing import List, Optional
 
 class ImageInput(BaseModel):
     image_data: Base64Bytes = Field(..., description="Base64 encoded image data")
